@@ -6,9 +6,14 @@ using System.Threading.Tasks;
 
 namespace Lab2
 {
-    public class Student
+    public class Currency
     {
-        public int studentId { set; get; }
-        public string studentName { set; get; }
+        public string disclaimer { set; get; }
+        public string license { set; get; }
+        public int timestamp { set; get; }
+        public string Base { set; get; }
+        public Dictionary<string, float> rates { set; get; }
+
+        //public DateTime DateTime { set; get; }
     }
 }

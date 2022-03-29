@@ -9,3 +9,10 @@ C:\Users\Patryk\Desktop\Studia\Platformy Programistyczne .NET i Java\Laboratoriu
 C:\Users\Patryk\Desktop\Studia\Platformy Programistyczne .NET i Java\Laboratorium_Git\Lab2\Lab2\Lab2\obj\Debug\Lab2.csproj.CoreCompileInputs.cache
 C:\Users\Patryk\Desktop\Studia\Platformy Programistyczne .NET i Java\Laboratorium_Git\Lab2\Lab2\Lab2\obj\Debug\Lab2.exe
 C:\Users\Patryk\Desktop\Studia\Platformy Programistyczne .NET i Java\Laboratorium_Git\Lab2\Lab2\Lab2\obj\Debug\Lab2.pdb
+C:\Users\Patryk\Desktop\Studia\Platformy Programistyczne .NET i Java\Laboratorium_Git\Lab2\Lab2\Lab2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Patryk\Desktop\Studia\Platformy Programistyczne .NET i Java\Laboratorium_Git\Lab2\Lab2\Lab2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Patryk\Desktop\Studia\Platformy Programistyczne .NET i Java\Laboratorium_Git\Lab2\Lab2\Lab2\obj\Debug\Lab2.csproj.CopyComplete
+C:\Users\Patryk\Desktop\Studia\Platformy Programistyczne .NET i Java\Laboratorium_Git\Lab2\Lab2\Lab2\bin\Debug\EntityFramework.dll
+C:\Users\Patryk\Desktop\Studia\Platformy Programistyczne .NET i Java\Laboratorium_Git\Lab2\Lab2\Lab2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Patryk\Desktop\Studia\Platformy Programistyczne .NET i Java\Laboratorium_Git\Lab2\Lab2\Lab2\bin\Debug\EntityFramework.xml
+C:\Users\Patryk\Desktop\Studia\Platformy Programistyczne .NET i Java\Laboratorium_Git\Lab2\Lab2\Lab2\bin\Debug\EntityFramework.SqlServer.xml
