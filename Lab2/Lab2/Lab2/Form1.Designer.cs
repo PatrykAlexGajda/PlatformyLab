@@ -43,7 +43,7 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.button1.Location = new System.Drawing.Point(23, 12);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(211, 72);
+            this.button1.Size = new System.Drawing.Size(211, 61);
             this.button1.TabIndex = 0;
             this.button1.Text = "Pobierz nowe dane";
             this.button1.UseVisualStyleBackColor = true;
@@ -69,14 +69,14 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(23, 176);
+            this.textBox1.Location = new System.Drawing.Point(23, 155);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(211, 22);
             this.textBox1.TabIndex = 4;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(23, 310);
+            this.textBox2.Location = new System.Drawing.Point(23, 250);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(211, 22);
             this.textBox2.TabIndex = 5;
@@ -94,7 +94,7 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button3.Location = new System.Drawing.Point(23, 103);
+            this.button3.Location = new System.Drawing.Point(23, 92);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(211, 36);
             this.button3.TabIndex = 7;
@@ -104,7 +104,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(23, 238);
+            this.textBox3.Location = new System.Drawing.Point(23, 204);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(211, 22);
             this.textBox3.TabIndex = 8;

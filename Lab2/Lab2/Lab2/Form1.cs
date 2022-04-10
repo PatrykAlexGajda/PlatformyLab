@@ -61,10 +61,9 @@ namespace Lab2
             return toString;
         }
 
-        2020-10-10
-
         private void button3_Click(object sender, EventArgs e)
         {
+            
             listBox1.Items.Add(dictCurr["ANG"].ToString());
         }
     }
