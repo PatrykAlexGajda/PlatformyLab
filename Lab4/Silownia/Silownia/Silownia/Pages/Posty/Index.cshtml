@@ -1,0 +1,58 @@
+﻿@page
+@model Silownia.IndexModel
+@{
+ViewData["Title"] = "Home page";
+}
+
+<p>
+    <a asp-page="Create">Dodaj wpis</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+           <h2>Dostępne artykuły</h2>
+        </tr>
+    </thead>
+    <tbody>
+                    @foreach (var item in Model.getLista())
+                    {
+                        <tr>
+                            <td>
+                                <a asp-page="./Details" asp-route-id="@item.Id">@Html.DisplayFor(modelItem => item.Tytul)</a>
+                            </td>
+                            @*<td>
+                                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a>
+                                <a asp-page="./Details" asp-route-id="@item.Id">Details</a>
+                                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+                            </td>*@
+                        </tr>
+                    }
+                </tbody>
+   @* <tbody>
+    
+@foreach (var item in Model.Post) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Data)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CzyBlog)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tresc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tytul)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Zdjecie)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>*@
+</table>

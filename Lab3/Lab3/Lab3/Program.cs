@@ -9,9 +9,9 @@ namespace Lab3
 {
     class Program
     {
-        static int number = 250000;
+        static int number = 1000000;
         static double PI = 0;
-        static int numThreads = 40;
+        static int numThreads = 3;
         static double Sum_PI = 0;
 
         static void Main(string[] args)
@@ -37,9 +37,45 @@ namespace Lab3
             Console.WriteLine("Press any key to calculate pi");
             Console.Read();
             Console.WriteLine("Final pi value = {0}", Sum_PI / numThreads);
-
             var elapsedMs = watch.ElapsedMilliseconds;
             Console.WriteLine(elapsedMs + " ms");
+
+            var watchS = System.Diagnostics.Stopwatch.StartNew();
+            Console.WriteLine("Press any key to calculate pi in sequence");
+            Console.Read();
+            Console.WriteLine("Final pi value = {0}", SequenceMC(numThreads*number));
+            watchS.Stop();
+            elapsedMs = watchS.ElapsedMilliseconds;
+            Console.WriteLine(elapsedMs + " ms");
+        }
+
+        static double SequenceMC(int numbers) {
+
+            double PI;
+            double r = 1;
+            double Proportion;
+            int PointsNumberCircle = 0;
+            int PointsNumberSquare = 0;
+            double x;
+            double y;
+
+            for (int i = 0; i <= numbers; i++)
+            {
+                Random Ran = new Random();
+                int range = 1;
+                x = Ran.NextDouble() * range;
+                y = Ran.NextDouble() * range;
+                if ((x * x + y * y) <= r * r)
+                {
+                    PointsNumberCircle++;
+                }
+                PointsNumberSquare++;
+            }
+
+            Proportion = (double)PointsNumberCircle / PointsNumberSquare;
+            PI = (double)(4 * Proportion);
+
+            return PI;
         }
 
         public class Montecarlo
@@ -70,8 +106,6 @@ namespace Lab3
             
                 Proportion = (double)PointsNumberCircle / PointsNumberSquare;
                 ThreadPI = (double)(4 * Proportion);
-
-                Console.WriteLine(ThreadPI);
 
                 lock (this)
                 {

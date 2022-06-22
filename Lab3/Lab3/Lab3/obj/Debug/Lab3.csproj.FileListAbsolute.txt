@@ -6,3 +6,11 @@ C:\Users\Patryk\Desktop\Studia\Platformy Programistyczne .NET i Java\Wykład\Lab
 C:\Users\Patryk\Desktop\Studia\Platformy Programistyczne .NET i Java\Wykład\Lab3\Lab3\obj\Debug\Lab3.csproj.CoreCompileInputs.cache
 C:\Users\Patryk\Desktop\Studia\Platformy Programistyczne .NET i Java\Wykład\Lab3\Lab3\obj\Debug\Lab3.exe
 C:\Users\Patryk\Desktop\Studia\Platformy Programistyczne .NET i Java\Wykład\Lab3\Lab3\obj\Debug\Lab3.pdb
+C:\Users\Patryk\Desktop\Studia\Platformy Programistyczne .NET i Java\Laboratorium_Git\Lab3\Lab3\Lab3\bin\Debug\Lab3.exe.config
+C:\Users\Patryk\Desktop\Studia\Platformy Programistyczne .NET i Java\Laboratorium_Git\Lab3\Lab3\Lab3\bin\Debug\Lab3.exe
+C:\Users\Patryk\Desktop\Studia\Platformy Programistyczne .NET i Java\Laboratorium_Git\Lab3\Lab3\Lab3\bin\Debug\Lab3.pdb
+C:\Users\Patryk\Desktop\Studia\Platformy Programistyczne .NET i Java\Laboratorium_Git\Lab3\Lab3\Lab3\obj\Debug\Lab3.csproj.AssemblyReference.cache
+C:\Users\Patryk\Desktop\Studia\Platformy Programistyczne .NET i Java\Laboratorium_Git\Lab3\Lab3\Lab3\obj\Debug\Lab3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Patryk\Desktop\Studia\Platformy Programistyczne .NET i Java\Laboratorium_Git\Lab3\Lab3\Lab3\obj\Debug\Lab3.csproj.CoreCompileInputs.cache
+C:\Users\Patryk\Desktop\Studia\Platformy Programistyczne .NET i Java\Laboratorium_Git\Lab3\Lab3\Lab3\obj\Debug\Lab3.exe
+C:\Users\Patryk\Desktop\Studia\Platformy Programistyczne .NET i Java\Laboratorium_Git\Lab3\Lab3\Lab3\obj\Debug\Lab3.pdb
